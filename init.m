@@ -14,8 +14,8 @@ IqRef=0;
 kp_Ctrl=Ld*2*pi*300;
 ki_Ctrl=R*2*pi*300;
 %Observer
-kp_PLL=0.5;
-ki_PLL=0.05;
+kp_PLL=1;
+ki_PLL=0.15;
 kp_Regu=2*pi*0.2;
 ki_Regu=0;
 R_hat=R;
