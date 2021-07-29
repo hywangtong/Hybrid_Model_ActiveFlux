@@ -16,9 +16,12 @@ ki_Ctrl=R*2*pi*300;
 %Observer
 kp_PLL=1;
 ki_PLL=0.15;
-kp_Regu=2*pi*0.2;
+kp_Regu=2*pi*0.9;
 ki_Regu=0;
 R_hat=R;
 Ld_hat=Ld;
 Lq_hat=Lq;
 Psi_f_hat=Psi_f;
+%Condition
+we_init = fe * 1;
+StartTime = 0;
